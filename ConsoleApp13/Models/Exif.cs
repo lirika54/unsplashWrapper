@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp13.Models
 {
-    internal class Exif
+    public class Exif
     {
         public string make { get; set; }
         public string model { get; set; } //??
