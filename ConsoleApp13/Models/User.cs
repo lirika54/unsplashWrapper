@@ -8,9 +8,9 @@ namespace ConsoleApp13.Models
 {
     internal class User
     {
-        public string id { get; set; }
-        public string updated_at { get; set; }
-        public string username { get; set; }
+        public string Id { get; set; }
+        public string UpdatedAt { get; set; }
+        public string Username { get; set; }
         public string name { get; set; }
         public string portfolio_url { get; set; }
         public string bio { get; set; }
