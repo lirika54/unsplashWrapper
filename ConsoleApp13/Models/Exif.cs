@@ -8,11 +8,11 @@ namespace ConsoleApp13.Models
 {
     public class Exif
     {
-        public string make { get; set; }
-        public string model { get; set; } //??
-        public string exposure_time { get; set; }
-        public string aperture { get; set; }
-        public string focal_length { get; set; }
-        public int iso { get; set; }
+        public string? Make { get; set; }
+        public string? Model { get; set; } //??
+        public string? ExposureTime { get; set; }
+        public string? Aperture { get; set; }
+        public string? FocalLength { get; set; }
+        public int Iso { get; set; }
     }
 }

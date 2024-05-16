@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp13.Models
 {
-    internal class Links
+    public class Links
     {
-        public string self { get; set; }
-        public string html { get; set; }
-        public string downoload { get; set; }
-        public string downoload_location { get; set; }
+        public string? Self { get; set; }
+        public string? Html { get; set; }
+        public string? Downoload { get; set; }c
+        public string? DownoloadLocation { get; set; }
     }
 }

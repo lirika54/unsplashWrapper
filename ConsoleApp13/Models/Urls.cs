@@ -8,10 +8,10 @@ namespace ConsoleApp13.Models
 {
     internal class Urls
     {
-        public string raw { get; set; }
-        public string full { get; set; }
-        public string regular { get; set; }
-        public string small { get; set; }
-        public string thumb { get; set; }
+        public string? Raw { get; set; }
+        public string? Full { get; set; }
+        public string? Regular { get; set; }
+        public string? Small { get; set; }
+        public string? Thumb { get; set; }
     }
 }

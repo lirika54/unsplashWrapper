@@ -8,18 +8,18 @@ namespace ConsoleApp13.Models
 {
     internal class User
     {
-        public string Id { get; set; }
-        public string UpdatedAt { get; set; }
-        public string Username { get; set; }
-        public string name { get; set; }
-        public string portfolio_url { get; set; }
-        public string bio { get; set; }
-        public string location { get; set; }
-        public int total_likes { get; set; }
-        public int total_photo { get; set; }
-        public int total_collections { get; set; }
-        public string instagram_username { get; set; }
-        public string twitter_username { get; set; }
+        public string? Id { get; set; }
+        public string? UpdatedAt { get; set; }
+        public string? Username { get; set; }
+        public string? Name { get; set; }
+        public string? Portfolio_url { get; set; }
+        public string? Bio { get; set; }
+        public string? Location { get; set; }
+        public int TotalLikes { get; set; }
+        public int TotalPhoto { get; set; }
+        public int TotalCollections { get; set; }
+        public string? InstagramUsername { get; set; }
+        public string? TwitterUsername { get; set; }
         public User User { get; set; }
     }
 }

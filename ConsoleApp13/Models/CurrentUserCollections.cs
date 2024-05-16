@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp13.Models
 {
-    internal class CurrentUserCollections
+    public class CurrentUserCollections
     {
-        public int id { get; set; }
-        public string title { get; set; }
-        public string published_at { get; set; }
-        public string last_collected_at { get; set; }
-        public int? cover_photo { get; set; }
-        public int? user { get; set; }
+        public int Id { get; set; }
+        public string? Title { get; set; }
+        public string? PublishedAt { get; set; }
+        public string? LastCollectedAt { get; set; }
+        public int? CoverPhoto { get; set; }
+        public int? User { get; set; }
     }
 }
